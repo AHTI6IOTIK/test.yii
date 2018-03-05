@@ -29,6 +29,7 @@ class TestController extends Controller{
     return $this->render('index', [
       'rd' => $this->renderContent('renderContent'),
       'model' => $model,
+      'test' => Yii::$app->test->getVar(),
     ]);
   }
 
