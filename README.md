@@ -122,6 +122,7 @@ return [
 ];
 ```
 
+```php
 CREATE TABLE `product` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(50) NOT NULL,
@@ -130,7 +131,7 @@ CREATE TABLE `product` (
   `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
   PRIMARY KEY (`id`),
 );
-
+```
 
 **NOTES:**
 - Yii won't create the database for you, this has to be done manually before you can access it.
