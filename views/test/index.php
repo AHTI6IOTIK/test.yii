@@ -15,6 +15,9 @@ use yii\widgets\DetailView;
 <body>
   <h1>Hello yii</h1>
   <?=$rd?>  <br>
+
+  <b><?= $test ?></b><br><br>
+  
   <?= DetailView::widget(['model' => $model]) ?>
 </body>
 </html>
