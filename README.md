@@ -122,6 +122,8 @@ return [
 ];
 ```
 
+INSERT DB table
+
 ```php
 CREATE TABLE `product` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
